@@ -198,7 +198,7 @@ input{
 @media (min-width: 321px) and (max-width: 425px){
   section#box-profile{
     width: 90%;
-    height: 630px;
+    height: 700px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 30px;
@@ -239,13 +239,81 @@ input{
     position: relative;
   }
   .information{
-    top: 75px;
-    margin-left: 25px;
+    top: 175px;
+    margin-left: 40px;
     font-size: 14px;
   }
-  section#input-form{
+  section#input{
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+}
+/*Responsive mobile small*/
+@media screen and (max-width: 320px){
+  section#box-profile{
+    width: 90%;
+    height: 760px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+
+  }
+  .menu-mobile{
+    top: 20px;
+    right: 10%;
+    display: inline-block;
+  }
+  nav ul{
+    display: none;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    top: 43px;
+    z-index: 99;
+    background: #fff;
+  }
+  nav ul li{
+    float: unset;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .description{
+    padding-left: 20px;
+    width: 90%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .description .button{
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+
+  }
+  .img-profile .photo{
+    left: 10px;
+    position: relative;
+  }
+  .information{
+    top: 170px;
+    margin-left: 25px;
+    font-size: 14px;
+
+  }
+  .information .data{
+    height: 48px;
+  }
+  .information p.field{
+    width: 95px;
+  }
+  section#input{
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+
   }
 
 }
